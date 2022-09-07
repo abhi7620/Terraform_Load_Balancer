@@ -1,8 +1,8 @@
-data "aws_vpc" "aws-vpc" {
+/*data "aws_vpc" "aws-vpc" {
   default = true
 }
 
-/*data "aws_subnets" "subnet" {
+data "aws_subnets" "subnet" {
     id = 
     vpc_id = aws_vpc.aws-vpc.id
 }*/
